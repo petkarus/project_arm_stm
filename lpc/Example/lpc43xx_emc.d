@@ -1,0 +1,10 @@
+.\lpc43xx_emc.o: Drivers\source\lpc43xx_emc.c
+.\lpc43xx_emc.o: .\Core\Device\NXP\LPC43xx\Include\LPC43xx.h
+.\lpc43xx_emc.o: .\Core\CMSIS\Include\core_cm4.h
+.\lpc43xx_emc.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\lpc43xx_emc.o: .\Core\CMSIS\Include\core_cmInstr.h
+.\lpc43xx_emc.o: .\Core\CMSIS\Include\core_cmFunc.h
+.\lpc43xx_emc.o: .\Core\CMSIS\Include\core_cm4_simd.h
+.\lpc43xx_emc.o: .\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h
+.\lpc43xx_emc.o: .\Drivers\include\lpc43xx_emc.h
+.\lpc43xx_emc.o: .\Drivers\include\lpc43xx_scu.h

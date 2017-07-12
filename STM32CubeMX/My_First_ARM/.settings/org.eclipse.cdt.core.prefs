@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/CWD/delimiter=;
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/CWD/operation=replace
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/CWD/value=d\:\\Project_ARM\\Eclipse\\My_First_ARM\\${ACTEL_FOR_ALTIUM_OVERRIDE}Debug
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/PWD/delimiter=;
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/PWD/operation=replace
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/PWD/value=d\:\\Project_ARM\\Eclipse\\My_First_ARM\\Debug
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/append=true
+environment/project/fr.ac6.managedbuild.config.gnu.cross.exe.debug.648736217/appendContributed=true

@@ -1,0 +1,42 @@
+16:55:13 **** Build of configuration Debug for project My_First_ARM ****
+make all 
+Building file: ../startup/startup_stm32f407xx.s
+Invoking: MCU GCC Assembler
+%cd%
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "startup/startup_stm32f407xx.o" "../startup/startup_stm32f407xx.s"
+Finished building: ../startup/startup_stm32f407xx.s
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+/usr/bin/sh: -c: line 1: syntax error near unexpected token `-D__weak=__attribute__(('
+/usr/bin/sh: -c: line 1: `arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"'
+make: *** [Src/main.o] Error 258
+16:57:29 **** Incremental Build of configuration Debug for project My_First_ARM ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+/usr/bin/sh: -c: line 1: syntax error near unexpected token `-D__weak=__attribute__(('
+/usr/bin/sh: -c: line 1: `arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"'
+make: *** [Src/main.o] Error 258
+16:57:41 **** Incremental Build of configuration Debug for project My_First_ARM ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+/usr/bin/sh: -c: line 1: syntax error near unexpected token `-D__weak=__attribute__(('
+/usr/bin/sh: -c: line 1: `arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"'
+make: *** [Src/main.o] Error 258
+16:57:44 **** Incremental Build of configuration Debug for project My_First_ARM ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+/usr/bin/sh: -c: line 1: syntax error near unexpected token `-D__weak=__attribute__(('
+/usr/bin/sh: -c: line 1: `arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F407xx -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Drivers/CMSIS/Include" -I"D:/Project_ARM/STM32CubeMX/My_First_ARM/Inc"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"'
+make: *** [Src/main.o] Error 258

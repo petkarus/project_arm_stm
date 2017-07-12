@@ -1,0 +1,10 @@
+.\stm32f4xx_fmc.o: Libs\Drivers\src\stm32f4xx_fmc.c
+.\stm32f4xx_fmc.o: .\Libs\Drivers\inc\stm32f4xx_fmc.h
+.\stm32f4xx_fmc.o: .\Libs\CMSIS\stm32f4xx.h
+.\stm32f4xx_fmc.o: d:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\stm32f4xx_fmc.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\stm32f4xx_fmc.o: d:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\stm32f4xx_fmc.o: d:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\stm32f4xx_fmc.o: d:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\stm32f4xx_fmc.o: .\Libs\CMSIS\system_stm32f4xx.h
+.\stm32f4xx_fmc.o: .\Libs\Drivers\inc\stm32f4xx_rcc.h

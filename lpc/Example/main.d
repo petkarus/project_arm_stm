@@ -1,0 +1,11 @@
+.\main.o: User\main.c
+.\main.o: .\Core\Device\NXP\LPC43xx\Include\LPC43xx.H
+.\main.o: .\Core\CMSIS\Include\core_cm4.h
+.\main.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: .\Core\CMSIS\Include\core_cmInstr.h
+.\main.o: .\Core\CMSIS\Include\core_cmFunc.h
+.\main.o: .\Core\CMSIS\Include\core_cm4_simd.h
+.\main.o: .\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h
+.\main.o: .\Drivers\include\lpc43xx_scu.h
+.\main.o: .\Drivers\include\lpc43xx_gpio.h
+.\main.o: .\Drivers\include\lpc_types.h

@@ -1,0 +1,14 @@
+.\lpc43xx_sdmmc.o: Drivers\source\lpc43xx_sdmmc.c
+.\lpc43xx_sdmmc.o: d:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\lpc43xx_sdmmc.o: .\Drivers\include\lpc_sdmmc.h
+.\lpc43xx_sdmmc.o: .\Drivers\include\lpc43xx_sdif.h
+.\lpc43xx_sdmmc.o: .\Core\Device\NXP\LPC43xx\Include\LPC43xx.h
+.\lpc43xx_sdmmc.o: .\Core\CMSIS\Include\core_cm4.h
+.\lpc43xx_sdmmc.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\lpc43xx_sdmmc.o: .\Core\CMSIS\Include\core_cmInstr.h
+.\lpc43xx_sdmmc.o: .\Core\CMSIS\Include\core_cmFunc.h
+.\lpc43xx_sdmmc.o: .\Core\CMSIS\Include\core_cm4_simd.h
+.\lpc43xx_sdmmc.o: .\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h
+.\lpc43xx_sdmmc.o: .\Drivers\include\lpc_types.h
+.\lpc43xx_sdmmc.o: .\Drivers\include\lpc43xx_sdmmc.h
+.\lpc43xx_sdmmc.o: .\Drivers\include\lpc43xx_libcfg_default.h
