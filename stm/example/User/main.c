@@ -43,6 +43,6 @@ int main(void)
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15);
  			//for (i=0; i<2000000; i++);
 		delay_ms(500);
-	
+		delay_ms(500);
 	}
 }
